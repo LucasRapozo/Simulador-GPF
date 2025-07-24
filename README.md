@@ -47,7 +47,7 @@ Tentando o acesso à `CS:0x10005`:
 
 ![Imagem da simulação](./imagens/exemplo.png)
 
-## 👥 Autores e Créditos
+## Créditos
 
 Este projeto foi desenvolvido em equipe, eis as funções:
 
@@ -56,6 +56,6 @@ Este projeto foi desenvolvido em equipe, eis as funções:
 - **Lucas Pereira Rapozo:** Responsável pela revisão e teste do programa
 - **Felipe Sant'ana:** Responsável por revisão do código e ajuda na interface
 
-## 📄 Licença
+## Licença
 
 Este projeto é de código aberto
