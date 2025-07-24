@@ -39,10 +39,10 @@ Utilizando valores padrão da interface:
 Tentando o acesso à `CS:0x10005`:
 
 1.  **Cálculo do Endereço Físico:**
-    1.1 `Endereço = (0x1000 * 10) + 0x10005`
-    1.2 `Endereço = 0x10000 + 0x10005 = 0x20005`
+    * 1.1 `Endereço = (0x1000 * 10) + 0x10005`
+    * 1.2 `Endereço = 0x10000 + 0x10005 = 0x20005`
 2.  **Análise:**
-    2.1 O endereço físico `0x20005` adentra no segmento de pilha `SS` (`0x20000` a `0x2FFFF`), porém foi tentado o acesso em dados (CS)
+    * 2.1 O endereço físico `0x20005` adentra no segmento de pilha `SS` (`0x20000` a `0x2FFFF`), porém foi tentado o acesso em dados (CS)
 3.  **Resultado:** O programa indicará uma **GPF de CÓDIGO em PILHA (CS:SS)**, pois um acesso que deveria estar no segmento de código invadiu o segmento de pilha
 
 ![Imagem da simulação](./imagens/exemplo.png)
